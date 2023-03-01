@@ -1,0 +1,6 @@
+framework module Pods_fanexTests {
+  umbrella header "Pods-fanexTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

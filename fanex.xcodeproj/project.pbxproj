@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F2CE2A49576CB2BFC51FDC0 /* Pods_fanex_fanexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280BFA74C66B79C5B4A9386F /* Pods_fanex_fanexUITests.framework */; };
+		5A2BC70F60D2BAC700D6FEBC /* Pods_fanexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32D365BBFDE2369E86E7954 /* Pods_fanexTests.framework */; };
 		6888A9CE29AA115000C0FFB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888A9CD29AA115000C0FFB5 /* AppDelegate.swift */; };
 		6888A9D029AA115000C0FFB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888A9CF29AA115000C0FFB5 /* SceneDelegate.swift */; };
 		6888A9D229AA115000C0FFB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888A9D129AA115000C0FFB5 /* ViewController.swift */; };
@@ -17,6 +19,44 @@
 		6888A9E829AA115400C0FFB5 /* fanexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888A9E729AA115400C0FFB5 /* fanexTests.swift */; };
 		6888A9F229AA115400C0FFB5 /* fanexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888A9F129AA115400C0FFB5 /* fanexUITests.swift */; };
 		6888A9F429AA115400C0FFB5 /* fanexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888A9F329AA115400C0FFB5 /* fanexUITestsLaunchTests.swift */; };
+		6888AA0629AA13BF00C0FFB5 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888AA0529AA13BF00C0FFB5 /* iOSDevCenters+GIF.swift */; };
+		6888AA0829AA148C00C0FFB5 /* fanex logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6888AA0729AA148C00C0FFB5 /* fanex logo.gif */; };
+		6888AA0A29AA1AD500C0FFB5 /* HomeScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888AA0929AA1AD500C0FFB5 /* HomeScreenController.swift */; };
+		6888AA0C29AA1F5900C0FFB5 /* AutoLayouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888AA0B29AA1F5900C0FFB5 /* AutoLayouts.swift */; };
+		6888AA0E29AA204E00C0FFB5 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888AA0D29AA204E00C0FFB5 /* BaseViewController.swift */; };
+		6888AA1029AA209C00C0FFB5 /* FloatingBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888AA0F29AA209C00C0FFB5 /* FloatingBarView.swift */; };
+		6888AA1229AA20BD00C0FFB5 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888AA1129AA20BD00C0FFB5 /* PushViewController.swift */; };
+		6888AA1429AA20E900C0FFB5 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888AA1329AA20E900C0FFB5 /* TabBarController.swift */; };
+		6888AA1629AAA41500C0FFB5 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888AA1529AAA41500C0FFB5 /* UILabel+Extensions.swift */; };
+		6888AA1A29AAB37500C0FFB5 /* FlowManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888AA1929AAB37500C0FFB5 /* FlowManger.swift */; };
+		6888AA1D29AAB5E800C0FFB5 /* FCL in Frameworks */ = {isa = PBXBuildFile; productRef = 6888AA1C29AAB5E800C0FFB5 /* FCL */; };
+		6888AA1F29AAB69900C0FFB5 /* FanexCadence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888AA1E29AAB69900C0FFB5 /* FanexCadence.swift */; };
+		6888AA2129AB622900C0FFB5 /* FCLDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888AA2029AB622900C0FFB5 /* FCLDelegate.swift */; };
+		6888AA2329AB6BFC00C0FFB5 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6888AA2229AB6BFC00C0FFB5 /* ProgressHUD.swift */; };
+		6888AA2529AB8B1A00C0FFB5 /* waiting-setting-account.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6888AA2429AB8B1900C0FFB5 /* waiting-setting-account.gif */; };
+		6888AA2829ABEB6500C0FFB5 /* EKTabBarController in Frameworks */ = {isa = PBXBuildFile; productRef = 6888AA2729ABEB6500C0FFB5 /* EKTabBarController */; };
+		68CDE34629AD5FA200C43B19 /* ScanQrController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CDE34529AD5FA200C43B19 /* ScanQrController.swift */; };
+		68D9D3AE29ADF8A500EB66C7 /* TweetView in Frameworks */ = {isa = PBXBuildFile; productRef = 68D9D3AD29ADF8A500EB66C7 /* TweetView */; };
+		68D9D3B029ADF8C000EB66C7 /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D9D3AF29ADF8C000EB66C7 /* TweetViewController.swift */; };
+		68D9D3B229AE128200EB66C7 /* ProfileView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D9D3B129AE128200EB66C7 /* ProfileView.storyboard */; };
+		68D9D3B429AE144100EB66C7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D9D3B329AE144100EB66C7 /* ProfileViewController.swift */; };
+		68D9D3B629AE19C400EB66C7 /* profileAvator.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D9D3B529AE19C400EB66C7 /* profileAvator.png */; };
+		68D9D3B829AE2C1B00EB66C7 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D9D3B729AE2C1B00EB66C7 /* ApiHandler.swift */; };
+		68D9D3BA29AE2D3A00EB66C7 /* ValidQrCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D9D3B929AE2D3A00EB66C7 /* ValidQrCode.swift */; };
+		68D9D3BC29AE327400EB66C7 /* AirdropModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D9D3BB29AE327400EB66C7 /* AirdropModel.swift */; };
+		68D9D3BE29AE35C500EB66C7 /* AirDropService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D9D3BD29AE35C500EB66C7 /* AirDropService.swift */; };
+		68D9D3C029AE380500EB66C7 /* AirdropViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D9D3BF29AE380500EB66C7 /* AirdropViewModel.swift */; };
+		68D9D3C229AEC25F00EB66C7 /* ActionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D9D3C129AEC25F00EB66C7 /* ActionsController.swift */; };
+		68D9D3C529AEC5E900EB66C7 /* CarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D9D3C429AEC5E900EB66C7 /* CarouselCell.swift */; };
+		68D9D3C729AEC62000EB66C7 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D9D3C629AEC62000EB66C7 /* CarouselView.swift */; };
+		68D9D3CA29AEE00100EB66C7 /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D9D3C829AEE00100EB66C7 /* CarouselCollectionViewCell.swift */; };
+		68D9D3CB29AEE00100EB66C7 /* CarouselCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68D9D3C929AEE00100EB66C7 /* CarouselCollectionViewCell.xib */; };
+		68D9D3CD29AEF0F700EB66C7 /* twitterAction.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D9D3CC29AEF0F700EB66C7 /* twitterAction.png */; };
+		68D9D3D029AEFFA100EB66C7 /* NFTImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D9D3CE29AEFFA100EB66C7 /* NFTImageCell.swift */; };
+		68D9D3D129AEFFA100EB66C7 /* NFTImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68D9D3CF29AEFFA100EB66C7 /* NFTImageCell.xib */; };
+		68D9D3D329AF077E00EB66C7 /* superFan NFt.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D9D3D229AF077E00EB66C7 /* superFan NFt.png */; };
+		68D9D3D529AF08D000EB66C7 /* Token Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D9D3D429AF08D000EB66C7 /* Token Amount.swift */; };
+		92704BBC6E21268A041D3550 /* Pods_fanex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76A4868723F081B60B246FB /* Pods_fanex.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +77,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		280BFA74C66B79C5B4A9386F /* Pods_fanex_fanexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fanex_fanexUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C5E4241DA5791795FF6DD7 /* Pods-fanex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fanex.debug.xcconfig"; path = "Target Support Files/Pods-fanex/Pods-fanex.debug.xcconfig"; sourceTree = "<group>"; };
+		404189C323C534268C620E78 /* Pods-fanex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fanex.release.xcconfig"; path = "Target Support Files/Pods-fanex/Pods-fanex.release.xcconfig"; sourceTree = "<group>"; };
+		48BB3DF09EFC1425F8288394 /* Pods-fanex-fanexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fanex-fanexUITests.release.xcconfig"; path = "Target Support Files/Pods-fanex-fanexUITests/Pods-fanex-fanexUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6888A9CA29AA115000C0FFB5 /* fanex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fanex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6888A9CD29AA115000C0FFB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6888A9CF29AA115000C0FFB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +95,46 @@
 		6888A9ED29AA115400C0FFB5 /* fanexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fanexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6888A9F129AA115400C0FFB5 /* fanexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fanexUITests.swift; sourceTree = "<group>"; };
 		6888A9F329AA115400C0FFB5 /* fanexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fanexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6888AA0529AA13BF00C0FFB5 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		6888AA0729AA148C00C0FFB5 /* fanex logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "fanex logo.gif"; sourceTree = "<group>"; };
+		6888AA0929AA1AD500C0FFB5 /* HomeScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenController.swift; sourceTree = "<group>"; };
+		6888AA0B29AA1F5900C0FFB5 /* AutoLayouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayouts.swift; sourceTree = "<group>"; };
+		6888AA0D29AA204E00C0FFB5 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6888AA0F29AA209C00C0FFB5 /* FloatingBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingBarView.swift; sourceTree = "<group>"; };
+		6888AA1129AA20BD00C0FFB5 /* PushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
+		6888AA1329AA20E900C0FFB5 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		6888AA1529AAA41500C0FFB5 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		6888AA1729AAA9BB00C0FFB5 /* fanex.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fanex.entitlements; sourceTree = "<group>"; };
+		6888AA1929AAB37500C0FFB5 /* FlowManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowManger.swift; sourceTree = "<group>"; };
+		6888AA1E29AAB69900C0FFB5 /* FanexCadence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanexCadence.swift; sourceTree = "<group>"; };
+		6888AA2029AB622900C0FFB5 /* FCLDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCLDelegate.swift; sourceTree = "<group>"; };
+		6888AA2229AB6BFC00C0FFB5 /* ProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
+		6888AA2429AB8B1900C0FFB5 /* waiting-setting-account.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "waiting-setting-account.gif"; sourceTree = "<group>"; };
+		68CDE34529AD5FA200C43B19 /* ScanQrController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQrController.swift; sourceTree = "<group>"; };
+		68D9D3AF29ADF8C000EB66C7 /* TweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
+		68D9D3B129AE128200EB66C7 /* ProfileView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileView.storyboard; sourceTree = "<group>"; };
+		68D9D3B329AE144100EB66C7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		68D9D3B529AE19C400EB66C7 /* profileAvator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profileAvator.png; sourceTree = "<group>"; };
+		68D9D3B729AE2C1B00EB66C7 /* ApiHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
+		68D9D3B929AE2D3A00EB66C7 /* ValidQrCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidQrCode.swift; sourceTree = "<group>"; };
+		68D9D3BB29AE327400EB66C7 /* AirdropModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirdropModel.swift; sourceTree = "<group>"; };
+		68D9D3BD29AE35C500EB66C7 /* AirDropService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirDropService.swift; sourceTree = "<group>"; };
+		68D9D3BF29AE380500EB66C7 /* AirdropViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirdropViewModel.swift; sourceTree = "<group>"; };
+		68D9D3C129AEC25F00EB66C7 /* ActionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsController.swift; sourceTree = "<group>"; };
+		68D9D3C429AEC5E900EB66C7 /* CarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCell.swift; sourceTree = "<group>"; };
+		68D9D3C629AEC62000EB66C7 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		68D9D3C829AEE00100EB66C7 /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
+		68D9D3C929AEE00100EB66C7 /* CarouselCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselCollectionViewCell.xib; sourceTree = "<group>"; };
+		68D9D3CC29AEF0F700EB66C7 /* twitterAction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitterAction.png; sourceTree = "<group>"; };
+		68D9D3CE29AEFFA100EB66C7 /* NFTImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTImageCell.swift; sourceTree = "<group>"; };
+		68D9D3CF29AEFFA100EB66C7 /* NFTImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NFTImageCell.xib; sourceTree = "<group>"; };
+		68D9D3D229AF077E00EB66C7 /* superFan NFt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "superFan NFt.png"; sourceTree = "<group>"; };
+		68D9D3D429AF08D000EB66C7 /* Token Amount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Token Amount.swift"; sourceTree = "<group>"; };
+		93F09ED6AA80ED071C96B599 /* Pods-fanexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fanexTests.debug.xcconfig"; path = "Target Support Files/Pods-fanexTests/Pods-fanexTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C32D365BBFDE2369E86E7954 /* Pods_fanexTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fanexTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D641B00C7182A059F6240FC7 /* Pods-fanex-fanexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fanex-fanexUITests.debug.xcconfig"; path = "Target Support Files/Pods-fanex-fanexUITests/Pods-fanex-fanexUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7918F0805161AD3CC922C8C /* Pods-fanexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fanexTests.release.xcconfig"; path = "Target Support Files/Pods-fanexTests/Pods-fanexTests.release.xcconfig"; sourceTree = "<group>"; };
+		E76A4868723F081B60B246FB /* Pods_fanex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fanex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +142,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6888AA1D29AAB5E800C0FFB5 /* FCL in Frameworks */,
+				68D9D3AE29ADF8A500EB66C7 /* TweetView in Frameworks */,
+				6888AA2829ABEB6500C0FFB5 /* EKTabBarController in Frameworks */,
+				92704BBC6E21268A041D3550 /* Pods_fanex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A2BC70F60D2BAC700D6FEBC /* Pods_fanexTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +161,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F2CE2A49576CB2BFC51FDC0 /* Pods_fanex_fanexUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3949820F075DC3CE2B925911 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34C5E4241DA5791795FF6DD7 /* Pods-fanex.debug.xcconfig */,
+				404189C323C534268C620E78 /* Pods-fanex.release.xcconfig */,
+				D641B00C7182A059F6240FC7 /* Pods-fanex-fanexUITests.debug.xcconfig */,
+				48BB3DF09EFC1425F8288394 /* Pods-fanex-fanexUITests.release.xcconfig */,
+				93F09ED6AA80ED071C96B599 /* Pods-fanexTests.debug.xcconfig */,
+				D7918F0805161AD3CC922C8C /* Pods-fanexTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6888A9C129AA115000C0FFB5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +188,8 @@
 				6888A9E629AA115400C0FFB5 /* fanexTests */,
 				6888A9F029AA115400C0FFB5 /* fanexUITests */,
 				6888A9CB29AA115000C0FFB5 /* Products */,
+				3949820F075DC3CE2B925911 /* Pods */,
+				CAE87E21DB057F1360BF4C63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +206,22 @@
 		6888A9CC29AA115000C0FFB5 /* fanex */ = {
 			isa = PBXGroup;
 			children = (
+				6888AA1729AAA9BB00C0FFB5 /* fanex.entitlements */,
+				6888AA0729AA148C00C0FFB5 /* fanex logo.gif */,
+				68D9D3D229AF077E00EB66C7 /* superFan NFt.png */,
+				6888AA0429AA139E00C0FFB5 /* Helpers */,
+				6888AA0329AA138300C0FFB5 /* Model Views */,
+				6888AA0229AA137D00C0FFB5 /* Views */,
+				6888AA0129AA137400C0FFB5 /* Models */,
+				6888AA0029AA136300C0FFB5 /* Controllers */,
 				6888A9CD29AA115000C0FFB5 /* AppDelegate.swift */,
 				6888A9CF29AA115000C0FFB5 /* SceneDelegate.swift */,
 				6888A9D129AA115000C0FFB5 /* ViewController.swift */,
 				6888A9D329AA115000C0FFB5 /* Main.storyboard */,
 				6888A9D929AA115400C0FFB5 /* Assets.xcassets */,
+				68D9D3B529AE19C400EB66C7 /* profileAvator.png */,
+				68D9D3CC29AEF0F700EB66C7 /* twitterAction.png */,
+				6888AA2429AB8B1900C0FFB5 /* waiting-setting-account.gif */,
 				6888A9DB29AA115400C0FFB5 /* LaunchScreen.storyboard */,
 				6888A9DE29AA115400C0FFB5 /* Info.plist */,
 				6888A9D629AA115000C0FFB5 /* fanex.xcdatamodeld */,
@@ -130,6 +246,96 @@
 			path = fanexUITests;
 			sourceTree = "<group>";
 		};
+		6888AA0029AA136300C0FFB5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6888AA1829AAB36200C0FFB5 /* Flow */,
+				6888AA0929AA1AD500C0FFB5 /* HomeScreenController.swift */,
+				6888AA0D29AA204E00C0FFB5 /* BaseViewController.swift */,
+				6888AA1129AA20BD00C0FFB5 /* PushViewController.swift */,
+				6888AA1329AA20E900C0FFB5 /* TabBarController.swift */,
+				6888AA1529AAA41500C0FFB5 /* UILabel+Extensions.swift */,
+				68CDE34529AD5FA200C43B19 /* ScanQrController.swift */,
+				68D9D3AF29ADF8C000EB66C7 /* TweetViewController.swift */,
+				68D9D3C129AEC25F00EB66C7 /* ActionsController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6888AA0129AA137400C0FFB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				68D9D3BB29AE327400EB66C7 /* AirdropModel.swift */,
+				68D9D3D429AF08D000EB66C7 /* Token Amount.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6888AA0229AA137D00C0FFB5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				68D9D3C329AEC59600EB66C7 /* components */,
+				68D9D3B129AE128200EB66C7 /* ProfileView.storyboard */,
+				68D9D3B329AE144100EB66C7 /* ProfileViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6888AA0329AA138300C0FFB5 /* Model Views */ = {
+			isa = PBXGroup;
+			children = (
+				68D9D3BD29AE35C500EB66C7 /* AirDropService.swift */,
+				68D9D3BF29AE380500EB66C7 /* AirdropViewModel.swift */,
+			);
+			path = "Model Views";
+			sourceTree = "<group>";
+		};
+		6888AA0429AA139E00C0FFB5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6888AA0529AA13BF00C0FFB5 /* iOSDevCenters+GIF.swift */,
+				6888AA0B29AA1F5900C0FFB5 /* AutoLayouts.swift */,
+				6888AA0F29AA209C00C0FFB5 /* FloatingBarView.swift */,
+				6888AA2029AB622900C0FFB5 /* FCLDelegate.swift */,
+				6888AA2229AB6BFC00C0FFB5 /* ProgressHUD.swift */,
+				68D9D3B729AE2C1B00EB66C7 /* ApiHandler.swift */,
+				68D9D3B929AE2D3A00EB66C7 /* ValidQrCode.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		6888AA1829AAB36200C0FFB5 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				6888AA1929AAB37500C0FFB5 /* FlowManger.swift */,
+				6888AA1E29AAB69900C0FFB5 /* FanexCadence.swift */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		68D9D3C329AEC59600EB66C7 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				68D9D3C429AEC5E900EB66C7 /* CarouselCell.swift */,
+				68D9D3C629AEC62000EB66C7 /* CarouselView.swift */,
+				68D9D3C829AEE00100EB66C7 /* CarouselCollectionViewCell.swift */,
+				68D9D3C929AEE00100EB66C7 /* CarouselCollectionViewCell.xib */,
+				68D9D3CE29AEFFA100EB66C7 /* NFTImageCell.swift */,
+				68D9D3CF29AEFFA100EB66C7 /* NFTImageCell.xib */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		CAE87E21DB057F1360BF4C63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E76A4868723F081B60B246FB /* Pods_fanex.framework */,
+				280BFA74C66B79C5B4A9386F /* Pods_fanex_fanexUITests.framework */,
+				C32D365BBFDE2369E86E7954 /* Pods_fanexTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,15 +343,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6888A9F729AA115400C0FFB5 /* Build configuration list for PBXNativeTarget "fanex" */;
 			buildPhases = (
+				E199BC8EBB2FCC3D8D5FAA14 /* [CP] Check Pods Manifest.lock */,
 				6888A9C629AA115000C0FFB5 /* Sources */,
 				6888A9C729AA115000C0FFB5 /* Frameworks */,
 				6888A9C829AA115000C0FFB5 /* Resources */,
+				6D38172BC6E57D7F1040C8EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = fanex;
+			packageProductDependencies = (
+				6888AA1C29AAB5E800C0FFB5 /* FCL */,
+				6888AA2729ABEB6500C0FFB5 /* EKTabBarController */,
+				68D9D3AD29ADF8A500EB66C7 /* TweetView */,
+			);
 			productName = fanex;
 			productReference = 6888A9CA29AA115000C0FFB5 /* fanex.app */;
 			productType = "com.apple.product-type.application";
@@ -154,6 +367,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6888A9FA29AA115400C0FFB5 /* Build configuration list for PBXNativeTarget "fanexTests" */;
 			buildPhases = (
+				78BE152E450C0AF57DD476EC /* [CP] Check Pods Manifest.lock */,
 				6888A9DF29AA115400C0FFB5 /* Sources */,
 				6888A9E029AA115400C0FFB5 /* Frameworks */,
 				6888A9E129AA115400C0FFB5 /* Resources */,
@@ -172,9 +386,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6888A9FD29AA115400C0FFB5 /* Build configuration list for PBXNativeTarget "fanexUITests" */;
 			buildPhases = (
+				762C48BFDD5FFDBBB5E4DFF0 /* [CP] Check Pods Manifest.lock */,
 				6888A9E929AA115400C0FFB5 /* Sources */,
 				6888A9EA29AA115400C0FFB5 /* Frameworks */,
 				6888A9EB29AA115400C0FFB5 /* Resources */,
+				FA74A027B3BA07491698D639 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,6 +434,11 @@
 				Base,
 			);
 			mainGroup = 6888A9C129AA115000C0FFB5;
+			packageReferences = (
+				6888AA1B29AAB5E800C0FFB5 /* XCRemoteSwiftPackageReference "fcl-swift" */,
+				6888AA2629ABEB6500C0FFB5 /* XCRemoteSwiftPackageReference "EKTabBar" */,
+				68D9D3AC29ADF8A500EB66C7 /* XCRemoteSwiftPackageReference "tweetview-ios" */,
+			);
 			productRefGroup = 6888A9CB29AA115000C0FFB5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,8 +456,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6888A9DD29AA115400C0FFB5 /* LaunchScreen.storyboard in Resources */,
+				6888AA0829AA148C00C0FFB5 /* fanex logo.gif in Resources */,
 				6888A9DA29AA115400C0FFB5 /* Assets.xcassets in Resources */,
+				68D9D3B629AE19C400EB66C7 /* profileAvator.png in Resources */,
+				68D9D3D129AEFFA100EB66C7 /* NFTImageCell.xib in Resources */,
+				68D9D3CB29AEE00100EB66C7 /* CarouselCollectionViewCell.xib in Resources */,
+				6888AA2529AB8B1A00C0FFB5 /* waiting-setting-account.gif in Resources */,
 				6888A9D529AA115000C0FFB5 /* Main.storyboard in Resources */,
+				68D9D3D329AF077E00EB66C7 /* superFan NFt.png in Resources */,
+				68D9D3CD29AEF0F700EB66C7 /* twitterAction.png in Resources */,
+				68D9D3B229AE128200EB66C7 /* ProfileView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,14 +485,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D38172BC6E57D7F1040C8EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fanex/Pods-fanex-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fanex/Pods-fanex-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fanex/Pods-fanex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		762C48BFDD5FFDBBB5E4DFF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fanex-fanexUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78BE152E450C0AF57DD476EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fanexTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E199BC8EBB2FCC3D8D5FAA14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fanex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA74A027B3BA07491698D639 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fanex-fanexUITests/Pods-fanex-fanexUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fanex-fanexUITests/Pods-fanex-fanexUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fanex-fanexUITests/Pods-fanex-fanexUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6888A9C629AA115000C0FFB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68D9D3CA29AEE00100EB66C7 /* CarouselCollectionViewCell.swift in Sources */,
+				6888AA2129AB622900C0FFB5 /* FCLDelegate.swift in Sources */,
+				6888AA1629AAA41500C0FFB5 /* UILabel+Extensions.swift in Sources */,
+				68D9D3B029ADF8C000EB66C7 /* TweetViewController.swift in Sources */,
+				6888AA2329AB6BFC00C0FFB5 /* ProgressHUD.swift in Sources */,
 				6888A9D829AA115000C0FFB5 /* fanex.xcdatamodeld in Sources */,
+				6888AA1A29AAB37500C0FFB5 /* FlowManger.swift in Sources */,
+				6888AA1029AA209C00C0FFB5 /* FloatingBarView.swift in Sources */,
+				68D9D3B829AE2C1B00EB66C7 /* ApiHandler.swift in Sources */,
+				68D9D3D029AEFFA100EB66C7 /* NFTImageCell.swift in Sources */,
+				6888AA1F29AAB69900C0FFB5 /* FanexCadence.swift in Sources */,
+				68D9D3C229AEC25F00EB66C7 /* ActionsController.swift in Sources */,
+				68D9D3BE29AE35C500EB66C7 /* AirDropService.swift in Sources */,
+				68D9D3C529AEC5E900EB66C7 /* CarouselCell.swift in Sources */,
+				68D9D3BC29AE327400EB66C7 /* AirdropModel.swift in Sources */,
+				68D9D3C729AEC62000EB66C7 /* CarouselView.swift in Sources */,
+				6888AA1429AA20E900C0FFB5 /* TabBarController.swift in Sources */,
+				68D9D3B429AE144100EB66C7 /* ProfileViewController.swift in Sources */,
+				6888AA0C29AA1F5900C0FFB5 /* AutoLayouts.swift in Sources */,
+				6888AA0629AA13BF00C0FFB5 /* iOSDevCenters+GIF.swift in Sources */,
 				6888A9D229AA115000C0FFB5 /* ViewController.swift in Sources */,
 				6888A9CE29AA115000C0FFB5 /* AppDelegate.swift in Sources */,
+				6888AA0E29AA204E00C0FFB5 /* BaseViewController.swift in Sources */,
+				6888AA0A29AA1AD500C0FFB5 /* HomeScreenController.swift in Sources */,
+				68CDE34629AD5FA200C43B19 /* ScanQrController.swift in Sources */,
+				68D9D3BA29AE2D3A00EB66C7 /* ValidQrCode.swift in Sources */,
+				6888AA1229AA20BD00C0FFB5 /* PushViewController.swift in Sources */,
+				68D9D3C029AE380500EB66C7 /* AirdropViewModel.swift in Sources */,
+				68D9D3D529AF08D000EB66C7 /* Token Amount.swift in Sources */,
 				6888A9D029AA115000C0FFB5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +728,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -424,7 +782,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -436,26 +794,33 @@
 		};
 		6888A9F829AA115400C0FFB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34C5E4241DA5791795FF6DD7 /* Pods-fanex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = fanex/fanex.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XZUFA65CWA;
+				DEVELOPMENT_TEAM = YH2M8264LW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = fanex/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Fanex;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.fanex.app.fanex;
+				PRODUCT_BUNDLE_IDENTIFIER = app.fanex.hack.flow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,26 +829,33 @@
 		};
 		6888A9F929AA115400C0FFB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 404189C323C534268C620E78 /* Pods-fanex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = fanex/fanex.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XZUFA65CWA;
+				DEVELOPMENT_TEAM = YH2M8264LW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = fanex/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Fanex;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.fanex.app.fanex;
+				PRODUCT_BUNDLE_IDENTIFIER = app.fanex.hack.flow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -492,6 +864,7 @@
 		};
 		6888A9FB29AA115400C0FFB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F09ED6AA80ED071C96B599 /* Pods-fanexTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +885,7 @@
 		};
 		6888A9FC29AA115400C0FFB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7918F0805161AD3CC922C8C /* Pods-fanexTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +906,7 @@
 		};
 		6888A9FE29AA115400C0FFB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D641B00C7182A059F6240FC7 /* Pods-fanex-fanexUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +925,7 @@
 		};
 		6888A9FF29AA115400C0FFB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48BB3DF09EFC1425F8288394 /* Pods-fanex-fanexUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -606,6 +982,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6888AA1B29AAB5E800C0FFB5 /* XCRemoteSwiftPackageReference "fcl-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/outblock/fcl-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+		6888AA2629ABEB6500C0FFB5 /* XCRemoteSwiftPackageReference "EKTabBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/emvakar/EKTabBar.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		68D9D3AC29ADF8A500EB66C7 /* XCRemoteSwiftPackageReference "tweetview-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/estampworld/tweetview-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6888AA1C29AAB5E800C0FFB5 /* FCL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6888AA1B29AAB5E800C0FFB5 /* XCRemoteSwiftPackageReference "fcl-swift" */;
+			productName = FCL;
+		};
+		6888AA2729ABEB6500C0FFB5 /* EKTabBarController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6888AA2629ABEB6500C0FFB5 /* XCRemoteSwiftPackageReference "EKTabBar" */;
+			productName = EKTabBarController;
+		};
+		68D9D3AD29ADF8A500EB66C7 /* TweetView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68D9D3AC29ADF8A500EB66C7 /* XCRemoteSwiftPackageReference "tweetview-ios" */;
+			productName = TweetView;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		6888A9D629AA115000C0FFB5 /* fanex.xcdatamodeld */ = {

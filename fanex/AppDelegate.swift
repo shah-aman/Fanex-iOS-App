@@ -7,7 +7,7 @@
 
 import UIKit
 import CoreData
-
+import FCL
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FlowManager.shared.setup()
         return true
     }
 
@@ -24,6 +25,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
+    }
+
+    func application(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] =
+                     [:]) -> Bool {
+        debugPrint(url)
+        return true
     }
 
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
@@ -60,9 +67,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         })
         return container
     }()
-
+    
     // MARK: - Core Data Saving support
-
+//    func application(
+//           _ app: UIApplication,
+//           open url: URL,
+//           options: [UIApplication.OpenURLOptionsKey: Any] = [:]
+//       ) -> Bool {
+//           fcl.application(open: url)
+//           return true
+//       }
+       
+//       func application(
+//           _ application: UIApplication,
+//           continue userActivity: NSUserActivity,
+//           restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void
+//       ) -> Bool {
+//           fcl.continueForLinks(userActivity)
+//           return true
+//       }
     func saveContext () {
         let context = persistentContainer.viewContext
         if context.hasChanges {

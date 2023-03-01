@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:571d-2401-4900-1c19-c93d-ac68-7414-aee7-32bc.in.ngrok.io?mode=developer</string>
+		<string>https://571d-2401-4900-1c19-c93d-ac68-7414-aee7-32bc.in.ngrok.io</string>
+	</array>
+</dict>
+</plist>
